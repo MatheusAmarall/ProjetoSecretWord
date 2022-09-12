@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: linear-gradient(180deg, rgba(9, 35, 175, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+button {
+    background: #1646a0;
+    color: white;
+    border: 3px solid white;
+    padding: 0 45px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: #0923af;
+}
